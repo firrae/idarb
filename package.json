@@ -16,8 +16,5 @@
   "engines" : {
     "node" : "0.10.x",
     "npm" : "1.4.14"
-  },
-  "scripts" : {
-    "start" : "node server.js"
   }
 }
