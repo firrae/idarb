@@ -46,13 +46,17 @@ h1#subTitle {
     margin: 0 auto;
 }
 .spacer {
-    margin: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 paper-shadow {
     background-color: white;
 }
 .gameCode {
-    width: 100px;
+    width: auto;
+}
+.hashbomb {
+    text-align: center;
 }
 #mainfooter {
     position: fixed;

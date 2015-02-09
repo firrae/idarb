@@ -10,7 +10,7 @@ angular.module('app').controller('PostsCtrl', function($scope, PostsSvc){
 
         if($scope.gameID && $scope.hashbomb) {
             PostsSvc.create({
-                body: $scope.gameID + ' ' + $scope.hashbomb
+                body: '@idarbwire ' + $scope.gameID + ' ' + $scope.hashbomb
             }).success(function() {
                 $scope.gameID = null
             })
