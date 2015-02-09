@@ -1,0 +1,28 @@
+{
+  "name": "idarb",
+  "version": "0.0.01",
+  "authors": [
+    "firrae <firrae@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.4",
+    "core-elements": "Polymer/core-elements#~0.5.4",
+    "paper-icon-button": "Polymer/paper-icon-button#~0.5.4",
+    "paper-dropdown-menu": "Polymer/paper-dropdown-menu#~0.5.4",
+    "paper-item": "Polymer/paper-item#~0.5.4",
+    "paper-dropdown": "Polymer/paper-dropdown#~0.5.4",
+    "core-menu": "Polymer/core-menu#~0.5.4",
+    "paper-button": "Polymer/paper-button#~0.5.4",
+    "paper-shadow": "Polymer/paper-shadow#~0.5.4",
+    "ng-polymer-elements": "~0.2.0"
+  }
+}

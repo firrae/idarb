@@ -1,0 +1,23 @@
+<div class="container">
+    <paper-shadow z="1">
+        <h1 id="subTitle">Drop A Bomb!</h1>
+        <div class="subContainer">
+            <paper-input-decorator label="Game Code" class="spacer gameCode">
+                <input is="core-input" ng-model="gameID">
+            </paper-input-decorator>
+            <!--<paper-input label="Game Code" class="spacer" ng-model="gameID"></paper-input>-->
+            <paper-dropdown-menu label="Hashbomb">
+                <paper-dropdown class="dropdown spacer">
+                    <core-menu class="menu" valueattr="value" ng-model="hashbomb">
+                        <paper-item value="Croissant">Croissant</paper-item>
+                        <paper-item value="Donut">Donut</paper-item>
+                        <paper-item value="Financier">Financier</paper-item>
+                        <paper-item value="Madeleine">Madeleine</paper-item>
+                    </core-menu>
+                </paper-dropdown>
+            </paper-dropdown-menu>
+            <br>
+            <paper-button raised ng-click='addPost()' class="redButton spacer">Drop The Bomb</paper-button>
+        </div>
+    </paper-shadow>
+</div>

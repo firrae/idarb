@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    background-color: #777777;
+}
+core-header-panel {
+    background: white;
+}
+#mainheader {
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+p {
+    margin: 20px;
+    padding: 80px 20px;
+    border-radius: 20px;
+    background-color: #eee;
+}
+.blackButton {
+    background: black;
+    color: white;
+}
+.redButton {
+    background: red;
+    color: black;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 20%;
+        margin: 0 auto;
+    }
+}
+h1#subTitle {
+    text-align: center;
+    padding: 25px;
+}
+.subContainer {
+    width: 55%;
+    margin: 0 auto;
+}
+.spacer {
+    margin: 25px;
+}
+paper-shadow {
+    background-color: white;
+}
+.gameCode {
+    width: 100px;
+}
+#mainfooter {
+    position: fixed;
+    z-index: 1000;
+    top: initial;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    font-size: small;
+}
