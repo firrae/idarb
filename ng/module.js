@@ -3,4 +3,6 @@ angular.module('app', [
     'ng-polymer-elements'
 ]);
 
-angular.bootstrap(document, [app]);
+angular.element(document).ready(function() {
+    angular.bootstrap(document, ['app']);
+});
