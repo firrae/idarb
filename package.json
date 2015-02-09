@@ -18,7 +18,7 @@
     "npm" : "1.4.14"
   },
   "scripts" : {
-    "postinstall" : "gulp pro",
+//    "postinstall" : "gulp pro",
     "start" : "node server.js"
   }
 }
